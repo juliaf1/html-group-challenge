@@ -1,0 +1,80 @@
+.card-product {
+  width: 400px;
+  background-color: #FFD9D9;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba(30, 30, 30, 0.2);
+}
+
+.card-product:hover {
+  box-shadow: 1px 1px 15px rgba(30, 30, 30, 0.23);
+}
+
+.card-product img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba(30, 30, 30, 0.2);
+}
+
+.card-product h2 {
+  margin-left: 20px;
+  color: #210f0f;
+}
+
+.product-description {
+  margin-left: 20px;
+  color: #210f0f;
+  opacity: 0.7;
+}
+
+.card-product ul {
+  width: 80px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.card-product li {
+  border: 1px solid #FC5751;
+  width: 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0 10px 0 0;
+  color: #C23232;
+  transition: 0.3s ease;
+}
+
+.card-product li:hover {
+  background-color: #FC5751;
+  color: white;
+}
+
+.card-checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-checkout p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(20, 20, 20);
+}
+
+.card-checkout a {
+  font-size: 24px;
+  color: #FC5751;
+  transition: 0.3s ease;
+}
+
+.card-checkout a:hover {
+  color: #FCBC6D;
+  font-size: 26px;
+}
